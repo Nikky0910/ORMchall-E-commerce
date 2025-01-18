@@ -22,7 +22,11 @@ Product.belogsToMany(Tag, {
   }
 })
 // Tags belongToMany Products (through ProductTag)
-
+Tag.belogsToMany(Product, {
+  through:{
+    model: ProductTag
+  }
+})
 module.exports = {
   Product,
   Category,
