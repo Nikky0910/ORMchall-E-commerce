@@ -16,7 +16,11 @@ Product.belongsTo(Category, {
 })
 
 // Products belongToMany Tags (through ProductTag)
-
+Product.belogsToMany(Tag, {
+  through:{
+    model: ProductTag,
+  }
+})
 // Tags belongToMany Products (through ProductTag)
 
 module.exports = {
