@@ -1,5 +1,4 @@
 # ORMchall-E-commerce
-# SQL-challenge-employee-tracker
 
 ## Description
 
